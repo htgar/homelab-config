@@ -9,8 +9,8 @@ services:
       - PGID=1000
       - TZ=Asia/Singapore
     volumes:
-      - ~/docker/syncthing:/config
-      - ~/Backup:/data1
+      - /home/htgar/docker/syncthing:/config
+      - /home/htgar/Backup:/data1
     ports:
       - 8384:8384
       - 22000:22000/tcp
